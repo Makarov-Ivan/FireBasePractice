@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+    <!-- Download an firestore -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+    <title>Firebase XP. CloudCafe</title>
+  </head>
+  <body>
+    <h1>CloudCafe</h1>
+    <div class="content">
+      <form id="add-cafe-forn"></form>
+      <ul id="cafe-list"></ul>
+    </div>
+    <script src="script.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyD4HcW8K0YtBDlISHlFxOnzkXB-HFGCsWo",
+        authDomain: "fir-xp-55be7.firebaseapp.com",
+        databaseURL: "https://fir-xp-55be7.firebaseio.com",
+        projectId: "fir-xp-55be7",
+        storageBucket: "fir-xp-55be7.appspot.com",
+        messagingSenderId: "445699328289",
+        appId: "1:445699328289:web:a9ca8dbbcd8d2c5f34d660",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      //initialize databse
+      const db = firebase.firestore();
+      //adding some database configs
+      db.settings({ timestampsInSnapshots: true });
+    </script>
+  </body>
+</html>
