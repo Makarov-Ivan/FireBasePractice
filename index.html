@@ -13,7 +13,11 @@
   <body>
     <h1>CloudCafe</h1>
     <div class="content">
-      <form id="add-cafe-forn"></form>
+      <form id="add-cafe-form">
+        <input type="text" name="name" id="0" placeholder="Cafe name" />
+        <input type="text" name="city" id="1" placeholder="Cafe city" />
+        <button type="submit">Add cafe</button>
+      </form>
       <ul id="cafe-list"></ul>
     </div>
 
@@ -37,6 +41,7 @@
       const db = firebase.firestore();
       //adding some database configs
     </script>
-    <script src="script.js"></script>
+    <script src="fetch.js"></script>
+    <script src="add.js"></script>
   </body>
 </html>

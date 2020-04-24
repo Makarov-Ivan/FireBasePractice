@@ -1,3 +1,6 @@
+//this script for fetching data from database
+//+++++++++++++++++++++++++++++++++++++++++++++++
+
 const cafeList = document.querySelector("#cafe-list"); //reference to list of cafes
 
 //create elements and render cafe
