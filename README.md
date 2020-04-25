@@ -1,6 +1,6 @@
-# FireBasePractice
+# FireStorePractice
 
-this progect was created for earning some xp in firebase.
+this progect was created for earning some xp in firestore.
 
 ## Source
 
